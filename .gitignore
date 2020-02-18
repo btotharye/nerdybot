@@ -1,6 +1,7 @@
 #Python
 __pycache__/
 results/
+.pytype/
 
 # Rasa
 credentials.yml
