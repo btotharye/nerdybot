@@ -28,7 +28,7 @@ clean:
 	rm -rf docs/_build
 
 formatter:
-	black actions.py
+	black actions.py format_results.py
 
 lint:
 	flake8 actions.py
