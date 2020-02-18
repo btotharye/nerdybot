@@ -11,6 +11,7 @@ writer.headers = ["class"] + list(data["micro avg"].keys())
 classes = list(data.keys())
 classes.sort(key=lambda x: data[x]["support"], reverse=True)
 
-writer.value_matrix = [[c] + [data[c][k] for k in data[c].keys()] for c in classes]
+writer.value_matrix = [[c] + [data[c][k]
+                              for k in data[c].keys()] for c in classes]
 
 writer.dump("results.md")
