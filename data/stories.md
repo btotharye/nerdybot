@@ -1,14 +1,14 @@
 ## greet happy path
 * greet
-  - greet
+  - utter_greet
 * goodbye
   - utter_goodbye
 
 ## help happy path
 * greet
-  - greet
+  - utter_greet
 * help
-  - help
+  - utter_help
 
 ## say goodbye
 * goodbye

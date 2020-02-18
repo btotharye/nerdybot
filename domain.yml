@@ -7,13 +7,13 @@ intents:
   - help
 
 actions:
-- greet
+- utter_greet
 - utter_goodbye
 - utter_iamabot
-- help
+- utter_help
 
 responses:
-  greet:
+  utter_greet:
   - text: "Hey! How are you?"
 
   utter_goodbye:
@@ -23,7 +23,7 @@ responses:
   - text: I'm Woz, a bot related to ball pythons 🐍 and to answer questions about Nerdy
       Python's business.
 
-  help:
+  utter_help:
   - text: I can answer all sorts of questions related to ball pythons and about Nerdy
       Python's availability.
 session_config:
