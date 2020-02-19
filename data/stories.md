@@ -1,26 +1,14 @@
-## happy path
+## greet happy path
 * greet
   - utter_greet
-* mood_great
-  - utter_happy
-
-## sad path 1
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* affirm
-  - utter_happy
-
-## sad path 2
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* deny
+* goodbye
   - utter_goodbye
+
+## help happy path
+* greet
+  - utter_greet
+* help
+  - utter_help
 
 ## say goodbye
 * goodbye
